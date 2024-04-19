@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "League Spartan", sans-serif;
+    background-color: hsl(222, 26%, 31%);
+}
+
+.num-display {
+    position: absolute;
+    background-color: hsl(224, 36%, 15%);
+    color: white;
+    border-radius: 1vw;
+    width: 30vw;
+    height: 5vw;
+    margin-left: 35vw;
+    margin-top: 10vw;
+    padding-right: 3vw;
+    padding-top: 3vw;
+    text-align: end;
+    font-size: 4vw;
+    font-weight: 700;
+}
+
+#result {
+    position: absolute;
+    background-color: hsl(224, 36%, 15%);
+    color: white;
+    border-radius: 1vw;
+    border: none;
+    width: 30vw;
+    height: 7vw;
+    margin-left: 35vw;
+    margin-top: 10vw;
+    padding-right: 3vw;
+    padding-top: 1vw;
+    text-align: end;
+    font-size: 4vw;
+    font-weight: 700;
+}
+
+.calc-numbers {
+    position: absolute;
+    background-color: hsl(223, 31%, 20%);
+    color: white;
+    border-radius: 1vw;
+    width: 29vw;
+    height: 22vw;
+    margin-top: 20vw;
+    margin-left: 35vw;
+    padding: 2vw;
+}
+
+.nums {
+    background-color: white;
+    color: hsl(221, 14%, 31%);
+    border: none;
+    border-radius: .5vw;
+    font-size: 2vw;
+    font-weight: 700;
+    width: 6vw;
+    height: 3.5vw;
+    margin-left: .7vw;
+    margin-top: 1vw;
+}
+
+.wide-nums {
+    background-color: lightgray;
+    border: none;
+    border-radius: .5vw;
+    font-size: 2vw;
+    font-weight: 700;
+    width: 13vw;
+    height: 3.5vw;
+    margin-left: .7vw;
+    margin-top: 1vw;
+}
